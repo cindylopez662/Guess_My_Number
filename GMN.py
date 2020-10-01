@@ -20,8 +20,8 @@ while True:
     guess = int(input('Guess my number from 1 to 20: \n'))
     if guess > magic_number:
         print("Your guess is a little too high!")
-    if guess < magic_number:
+    elif guess < magic_number:
         print("You guess is a little too low! ")
-    if guess == magic_number:
+    elif guess == magic_number:
         print("You got it right")
         break 
